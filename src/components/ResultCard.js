@@ -6,7 +6,6 @@ import { FcLike } from "react-icons/fc"
 export const ResultCard = ({ movie }) => {
   const {
     addMovieToWatchlist,
-    addMovieToWatched,
     watchlist,
     watched,
   } = useContext(GlobalContext);
