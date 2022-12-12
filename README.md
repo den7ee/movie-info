@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 2 - Create a TMDB account and get an API key or use mine (Shared in email);
 
-3 - Create a file called .env.local on root of this directory with this content and API Key: `REACT_APP_TMDB_KEY=API Key`
+3 - Create a file called .env.local on root of this directory with this content: `REACT_APP_TMDB_KEY=your api key`
 
 4 - Open and Run `npm install`
 
