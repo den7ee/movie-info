@@ -19,8 +19,6 @@ export const ResultCard = ({ movie }) => {
     ? true
     : false;
 
-  const watchedDisabled = storedMovieWatched ? true : false;
-
   return (
     <div className="result-card">
       <div className="poster-wrapper">
@@ -40,7 +38,6 @@ export const ResultCard = ({ movie }) => {
           <h4 className="release-date">
             <Moment format="YYYY">{movie.release_date}</Moment>
           </h4>
-          <p>{movie.overview}</p>
         </div>
 
         <div className="controls">

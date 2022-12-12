@@ -19,7 +19,7 @@ export const Watched = () => {
             ))}
           </div>
         ) : (
-          <h2 className="no-movies">No watched movies!</h2>
+          <h2 className="no-movies">No watched movies! Add via Favorites Movies!</h2>
         )}
       </div>
     </div>
